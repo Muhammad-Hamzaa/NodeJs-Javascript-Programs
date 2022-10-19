@@ -3,7 +3,7 @@
 //1 inch is equal to 2.54 cm
 //2.2046 pounds is equal to 1 kilo
 //Output the results.Then, calculate and log the BMI; this is equal to weight (in kilos) divided by squared height (in meters). Output the results to the console.
-
+//CodewithHamza90
 import PromptSync from "prompt-sync"
 const prompt = PromptSync();
 // var height = prompt("enter height in inches")
