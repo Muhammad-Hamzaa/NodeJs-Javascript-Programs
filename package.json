@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "title-case": "^3.0.3"
-  }
+  },
+  "name": "nodejs-javascript-programs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Hamzaa/NodeJs-Javascript-Programs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Hamzaa/NodeJs-Javascript-Programs/issues"
+  },
+  "homepage": "https://github.com/Muhammad-Hamzaa/NodeJs-Javascript-Programs#readme",
+  "description": ""
 }
