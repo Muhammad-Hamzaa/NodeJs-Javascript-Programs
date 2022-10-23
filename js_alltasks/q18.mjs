@@ -10,4 +10,21 @@
 // • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
-const list_to_visit = ['Turkey', 'UAE', 'Australia', 'England', 'Germany', 'Saudia Arabia']
+const list_to_visit = ['Turkey', 'UAE', 'Australia', 'England', 'Germany']
+console.log(list_to_visit)
+
+const sortedList = ['Turkey', 'UAE', 'Australia', 'England', 'Germany'].sort();
+console.log(sortedList)
+
+console.log(list_to_visit)
+
+const reverseList = ['Turkey', 'UAE', 'Australia', 'England', 'Germany'].reverse();
+console.log(reverseList)
+
+reverseList.reverse();
+console.log(reverseList)
+
+console.log(sortedList)
+
+sortedList.reverse()
+console.log(sortedList)
