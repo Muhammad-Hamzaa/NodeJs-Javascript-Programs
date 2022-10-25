@@ -2,12 +2,12 @@
 // • If the list is empty, print the message We need to find some users!
 // • Remove all of the usernames from your array, and make sure the correct message is printed.
 
-import PromptSync from "prompt-sync"
-const prompt = PromptSync();
 
-const usernames = ['admin', 'manager', 'guard', 'cashier','accountant']
+const usernames = []
 
 
-if(array.length < 1 || array == undefined){
-    //empty
+if(usernames.length < 1 || usernames == undefined){
+    console.log(' We need to find some users!')
+}else{
+    console.log("Hello! ", + usernames + "thank you for logging in again.")
 }
