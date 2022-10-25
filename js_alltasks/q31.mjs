@@ -4,3 +4,10 @@
 
 import PromptSync from "prompt-sync"
 const prompt = PromptSync();
+
+const usernames = ['admin', 'manager', 'guard', 'cashier','accountant']
+
+
+if(array.length < 1 || array == undefined){
+    //empty
+}
