@@ -20,8 +20,30 @@ if(name == 'hamza'){
 )
 
 
-if(name == 'hamza'){
+if(name == name.toLowerCase()){
     console.log("you type the correct name ")
 }else{
     console.log("type the correct name in lower case")
 }
+
+
+const age = Number(prompt("Enter your age: "));
+console.log(typeof age)
+const nationality = prompt("Enter your Nationality: ")
+if(age >= 20 && name == 'hamza'){
+    console.log("You are eligible for national identity card")
+}else if(age <=60 || nationality == 'pakistani'){
+    console.log("You are eligible for government job in Pakistan")
+}else{
+    console.log("You are eligible for government job and national identity card in Pakistan")
+}
+
+// The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+const age1 = [10,20,30,40,50,60,18,21,22,25,28,35,38,29,39,34,31,24,56,59,57,52]
+if(age1.includes(age)){
+    console.log('Age matched!')
+}else{
+    console.log('Age not matched')
+}
+
+
