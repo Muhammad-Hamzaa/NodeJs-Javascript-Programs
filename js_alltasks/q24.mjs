@@ -47,3 +47,20 @@ if(age1.includes(age)){
 }
 
 
+//Very Important Concept related to array search includes method
+// Here's an example to show how we can use the includes() method's second parameter:
+
+// const nums = [ 1, 3, 5, 7];
+// console.log(nums.includes(3,2));
+// // false
+// The example above returned false even though we had 3 as an item in the array. Here's why:
+// Using the second parameter, we told the includes() method to search for the number 3 but starting from index 2: nums.includes(3,2).
+
+// This is the array:  [ 1, 3, 5, 7]
+
+// Index 0 = 1.
+// Index 1 = 3.
+// Index 2 =  5.
+// Index 3 = 7.
+
+// So starting from the second index which is 5, we have only 5 and 7 ([5,7]) to be searched through. This is why searching for 3 from index 2 returned false.
