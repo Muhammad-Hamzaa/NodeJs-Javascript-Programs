@@ -10,11 +10,11 @@ const new_users = ['javed', 'amir', 'raza', 'farrukh', 'noman']
 for(let a =0; a<new_users.length; a++){
   let message = "";
   for(let b = 0; b<current_users.length; b++){
-    if(current_users[a].toLowerCase() === new_users[b].toLowerCase()){
-      message = `${current_users[a]} is Availble in the new list `;
+    if(new_users[a].toLowerCase() === current_users[b].toLowerCase()){
+      message = `${new_users[a]} is Availble in the new and current list `;
       break;
     }else{
-      message = `${current_users[a]} is not available in the new list`;
+      message = `${new_users[a]} is not available in the current list, while available in the new list`;
     }
   }
   console.log(message);
@@ -25,13 +25,14 @@ for(let a =0; a<new_users.length; a++){
 
 
 
-// if(new_users[a].toLowerCase() === current_users[b].toLowerCase()){
-//   message = `${new_users[a]} is Availble in the new list `;
+
+
+// if(current_users[a].toLowerCase() === new_users[b].toLowerCase()){
+//   message = `${current_users[a]} is Availble in the current list `;
 //   break;
 // }else{
-//   message = `${new_users[a]} is not available in the new list`;
+//   message = `${current_users[a]} is not available in the current list`;
 // }
-
 
 // for (let a = 0; a < new_users.length; a++) {
 //   let message = "";
